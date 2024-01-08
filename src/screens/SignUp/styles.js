@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
-     background-color: #63C2D1;
+     background-color: #fbd37c;
      flex: 1;
      justify-content: center;
      align-items: center;
@@ -13,7 +13,7 @@ export const InputArea = styled.View`
 `;
 export const CustomButton = styled.TouchableOpacity`
    height: 60px;
-   background-color: #268596;
+   background-color: #e58e26;
    border-radius: 30px;
    justify-content:center;
    align-items: center;

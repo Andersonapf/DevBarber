@@ -3,7 +3,7 @@ import {Container, LoadingIcon} from './styles';
 import AsyncStorage from '@react-native-community/async-storage';
 import { useNavigation } from '@react-navigation/native';
 
-import BarberLogo from '../../assets/barber.svg';
+import BarberLogo from '../../assets/melave.svg';
 
 export default () => {
 
@@ -24,7 +24,7 @@ export default () => {
 
     return (
         <Container>
-           <BarberLogo width="100%" height="160" />
+           <BarberLogo width="100%" height="100%" />
            <LoadingIcon size="large" color="#ffffff" />
         </Container>
     );
